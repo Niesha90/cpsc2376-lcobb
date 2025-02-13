@@ -24,18 +24,18 @@ namespace Practice03Test {
             Assert::AreEqual(10, MathUtils::sumRange(1, 4)); // 1 + 2 + 3 + 4
         }
 
-        /*TEST_METHOD(SumRangeEmptyRange)
+        TEST_METHOD(SumRangeEmptyRange)
         {
-            Assert::AreEqual(0, MathUtils::sumRange(5, 5)); // No numbers to sum
+            Assert::AreEqual(0, MathUtils::sumRange(5, 1)); // No numbers to sum
         }
 
-        /TEST_METHOD(SumRangeNegativeRange)
+        TEST_METHOD(SumRangeNegativeRange)
         {
             Assert::AreEqual(-5, MathUtils::sumRange(-3, 1)); // -3 + -2 + -1 + 0 + 1
         }
 
         // Test cases for containsNegative
-        TEST_METHOD(ContainsNegativeWithNegativeNumbers)
+        /*TEST_METHOD(ContainsNegativeWithNegativeNumbers)
         {
             std::vector<int> values = { 1, 2, -3, 4 };
             Assert::IsTrue(MathUtils::containsNegative(values));
