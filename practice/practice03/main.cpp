@@ -2,7 +2,7 @@
 #include "practice03.h"
 #include <iostream>
 #include <vector>
-#include "practice03_test.cpp"
+
 
 int main() {
 	std::cout << "Sum from 1 to 5: " << MathUtils::sumRange(1, 5) << std::endl;

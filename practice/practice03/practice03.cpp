@@ -1,11 +1,11 @@
 #include "practice03.h"
 #include <iostream>
 #include <vector>
-#include "practice03_test.cpp"
+
 
 int MathUtils::sumRange(int start, int end) {
     int sum = 0;
-    for (int i = start; i < end; i++) { // Bug: Off-by-one error
+    for (int i = start; i <= end; i++) { // Bug: Off-by-one error
         sum += i;
     }
     return sum;
