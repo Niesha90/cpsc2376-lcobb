@@ -131,7 +131,7 @@
     <ClCompile Include="practice03.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="fixes.txt" />
+    <Text Include="fixes.md" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="practice03.h" />

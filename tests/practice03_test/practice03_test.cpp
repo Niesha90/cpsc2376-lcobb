@@ -35,7 +35,7 @@ namespace Practice03Test {
         }
 
         // Test cases for containsNegative
-        /*TEST_METHOD(ContainsNegativeWithNegativeNumbers)
+        TEST_METHOD(ContainsNegativeWithNegativeNumbers)
         {
             std::vector<int> values = { 1, 2, -3, 4 };
             Assert::IsTrue(MathUtils::containsNegative(values));
@@ -64,8 +64,13 @@ namespace Practice03Test {
         {
             std::vector<int> values = { 5, 5, 5, 5 };
             Assert::AreEqual(5, MathUtils::findMax(values));
-        }*/
-
+        }
+        
+        TEST_METHOD(SumRangeLargeRange)
+        {
+            Assert::AreEqual(5050, MathUtils::sumRange(1, 100));
+        
+        }
         TEST_METHOD(FindMaxEmptyList)
         {
             //std::vector<int> values;

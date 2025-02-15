@@ -23,7 +23,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="fixes.txt">
+    <Text Include="fixes.md">
       <Filter>Source Files</Filter>
     </Text>
   </ItemGroup>
