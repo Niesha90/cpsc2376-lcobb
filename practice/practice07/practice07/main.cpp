@@ -99,8 +99,6 @@ int main() {
     int eid;
     std::string ename;
 
-    // Read until we can't parse valid data
-    // We read <type> <id> <name> in one line
     while (inFile >> type >> eid >> ename) {
         if (type == "Salaried") {
             double sal;
@@ -122,7 +120,6 @@ int main() {
                     new CommissionEmployee(ename, eid, baseSal, salesAmt, cRate));
             }
         }
-        // else: unrecognized type (optionally handle error/warning)
     }
     inFile.close();
 
