@@ -398,3 +398,7 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/vcpkg_installed/x86-windows/x64-windows/share
+/vcpkg_installed/x86-windows
+/vcpkg_installed/x64-windows/x64-windows
+/vcpkg_installed/x64-windows/vcpkg/info
